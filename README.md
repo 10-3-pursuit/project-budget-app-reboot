@@ -54,7 +54,13 @@ To complete the back-end application, you will need to build a RESTful server th
 
 To complete the front-end application, you will need to build a React application that allows for CRUD operations to be performed on a single resource. You will also need to display the data thoughtfully and clearly.
 
-Use of `React Router 6.2.1` (`npm i react-router-dom@6.2.1) is optional for this project, but please be mindful as to how you render and toggle components on the page if you do not use Router. Keep User Experience in mind.
+Use of `React Router 6.2.1` is optional for this project.
+
+```js
+npm i react-router-dom@6.2.1
+```
+
+But please be mindful as to how you render and toggle components on the page if you do not use Router. Keep User Experience in mind.
 
 1. All pages should include the same navigation bar, which includes the name of the application and a button to create a new resource.
 1. You should have an Index page that presents all of the resources in your database table.
