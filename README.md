@@ -85,7 +85,7 @@ When you submit your pull request, _make sure to include a description of any st
 - Add helpful errors to users when they try to create or edit items with invalid data
 - Use the date object for the date, instead of just a string. Be sure to format it on the front-end to make it human-readable. Try using the `date` input type as well.
 - Use a checkbox, separate input or similar strategy to allow the user to select whether the transaction is a deposit or withdrawal. If it is a withdrawal, make sure the value subtracts and deposit values add. By default, your user would have be entering values that are positive or negative.
-- Add a library like [chartjs](https://www.chartjs.org) or [D3](https://www.chartjs.org) to provide visualizations the budget app.
+- Add a library like [chartjs](https://www.chartjs.org) to provide visualizations the budget app.
 
 ## Project setup and overview
 
