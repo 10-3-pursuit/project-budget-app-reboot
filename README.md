@@ -1,6 +1,6 @@
 # Full Stack Budgeting App
 
-<img src="./assets/budget.webp" width="700" height="500">
+<img src="./assets/budget.webp" width="500" height="400">
 
 Budgtr is an application where people can log their financial transactions. Building this application will require you to bring together all you've learned about JavaScript, building websites, React, servers and RESTful routes.
 
