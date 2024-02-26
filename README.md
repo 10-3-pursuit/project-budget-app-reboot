@@ -33,7 +33,7 @@ To complete the back-end application, you will need to build a RESTful server th
    1. A route exists to update a single resource.
    1. A route exists to delete a single resource.
    1. An appropriate "Not Found" response is given when a route is requested that does not match the created routes.
-1. Create a model that includes at least 4 transactions in an array of objects
+1. Create a model that includes at least 4 transactions (objects) in an array of objects
 1. Validate your form requests to make sure you have the proper information to add to the data (array)
 1. Remember to add a message for when a resource is not found in a particular route.
 1. Add Status Codes to your responses. 200 for success. 400 for not found. 500 for server error.
