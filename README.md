@@ -6,7 +6,9 @@ Budgtr is an application where people can log their financial transactions. Buil
 
 ## Project setup
 
-You _should not_ fork and clone this repository. Instead, create your own repositories.
+**You _should not_ fork and clone this repository.**
+
+Instead, create your own repositories.
 
 1. Create a one GitHub repository for the the back-end where you create your own server.
 1. Create another Github repository for the front-end using [React-Basic-Starter](https://github.com/10-3-pursuit/react-basic-starter).
