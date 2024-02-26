@@ -30,7 +30,7 @@ To complete the back-end application, you will need to build a RESTful server th
    - `date`- string - the date should be a simple string. As a bonus activity, use the date object and date input field and format it to be human-readable
    - `from` - string - who this transaction was with (ie. employer, bank, pet store, grocery store, etc)
    - `category` - string - what category does this fall into (income, savings, pets, food, etc)
-     For this resource:
+1. For this resource:
    1. A route exists to create new resources.
    1. A route exists to read all resources.
    1. A route exists to read a single resource.
