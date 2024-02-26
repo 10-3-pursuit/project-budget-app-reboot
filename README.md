@@ -6,7 +6,7 @@ Budgtr is an application where people can log their financial transactions. Buil
 
 ## Project setup
 
-**You _should not_ fork and clone this repository.**
+**You _SHOULD NOT_ fork and clone this repository.**
 
 Instead, create your own repositories.
 
