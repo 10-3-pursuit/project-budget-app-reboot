@@ -4,12 +4,16 @@
 
 Budgtr is an application where people can log their financial transactions. Building this application will require you to bring together all you've learned about JavaScript, building websites, React, servers and RESTful routes.
 
-## Completion
+## Setup and Deliverables
 
 1. Create a one GitHub repository for the the back-end where you create your own server.
 1. Create another Github repository for the front-end using [React-Basic-Starter](https://github.com/10-3-pursuit/react-basic-starter).
 1. Your front-end repository should have a `readme.md` file with setup instructions for your application.
 1. Your readme should also include links to your back-end GitHub repository, both of your deployed URLs, and a link to the Trello board you used to manage your work.
+
+### Mastery
+
+This section of the project is designed to measure your increasing skill at writing good code and following best practices.
 
 #### Back-end feature requirements
 
@@ -63,12 +67,6 @@ Use of React Router 6.2.1 is optional for this project, but please be mindful as
 1. When an edited resource form is submitted, the resource should be edited in the database and the user should be brought to that new resource's Show page or to the main page where the resource has been added.
 1. On the resource's Show page, there should be a button to delete the current show page. If not using router that Delete button should be connected to the resource.
 1. Using the resource's data, perform a calculation that can be performed on the front-end application and displayed to the user on the Index page. For example, the bank account total should be visible. In addition to the total, the CSS should change based on the value - use a greenish color if the bank account total is above 100, use a yellowish color if the bank account total is between 0 and 100 and a reddish color if the bank account total is less than 0. You can change the background or text or both.
-
-### Mastery rubric
-
-This section of the project is designed to measure your increasing skill at writing good code and following best practices.
-
-To view components of the mastery rubric, view the appropriate assignment on Canvas.
 
 ### Stretch goals
 
