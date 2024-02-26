@@ -4,7 +4,9 @@
 
 Budgtr is an application where people can log their financial transactions. Building this application will require you to bring together all you've learned about JavaScript, building websites, React, servers and RESTful routes.
 
-## Setup and Deliverables
+## Project setup
+
+You _should not_ fork and clone this repository. Instead, create your own repositories.
 
 1. Create a one GitHub repository for the the back-end where you create your own server.
 1. Create another Github repository for the front-end using [React-Basic-Starter](https://github.com/10-3-pursuit/react-basic-starter).
@@ -87,10 +89,6 @@ When you submit your pull request, _make sure to include a description of any st
 - Use a checkbox, separate input or similar strategy to allow the user to select whether the transaction is a deposit or withdrawal. If it is a withdrawal, make sure the value subtracts and deposit values add. By default, your user would have be entering values that are positive or negative.
 - Add a library like [chartjs](https://www.chartjs.org) to provide visualizations the budget app.
 - Add [React Drag and Drop](https://react-dnd.github.io/react-dnd/about) to move your transactions above and below each other.
-
-## Project setup and overview
-
-There are no tests for this project and you _should not_ fork and clone this repository. Instead, create your own repositories.
 
 ## Example application
 
