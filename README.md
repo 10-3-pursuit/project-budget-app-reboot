@@ -87,6 +87,7 @@ This section of the project measures your ability to go above and beyond in crea
 
 When you submit your pull request, _make sure to include a description of any stretch goals you implemented._ You may choose from the list below or come up with features or tasks that are more relevant to your specific implementation of the project.
 
+- use [axios](https://www.npmjs.com/package/axios) instead of fetch to make calls to the backend
 - Make `categories` a `select` HTML element on the new/edit forms to allow the user to choose from a pull-down menu from the available categories, and allow for the addition of new categories to the options menu.
 - Display the bank account total in the nav bar (or similar component that is visible on all views), instead of just on the index page.
 - Add helpful errors to users when they try to create or edit items with invalid data
