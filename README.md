@@ -10,18 +10,18 @@ Budgtr is an application where people can log their financial transactions. Buil
 
 Instead, create your own repositories.
 
-1. Create a one GitHub repository for the the back-end where you create your own server.
-1. Create another Github repository for the front-end using [Project Budgeting App Frontend](https://github.com/10-3-pursuit/project-budgeting-app-frontend).
-1. Your front-end repository should have a `readme.md` file with setup instructions for your application.
-1. Your readme should also include links to your back-end GitHub repository, both of your deployed URLs, and a link to the Trello board you used to manage your work.
+1. Create a one GitHub repository for the the backend where you create your own server.
+1. Create another Github repository for the frontend using [Project Budgeting App Frontend](https://github.com/10-3-pursuit/project-budgeting-app-frontend).
+1. Your backend repository should have a `readme.md` file with setup instructions for your application.
+1. Your readme should also include links to your frontend GitHub repository.
 
 ### Mastery
 
 This section of the project is designed to measure your increasing skill at writing good code and following best practices.
 
-#### Back-end feature requirements
+#### backend feature requirements
 
-To complete the back-end application, you will need to build a RESTful server that performs CRUD actions on a single resource.
+To complete the backend application, you will need to build a RESTful server that performs CRUD actions on a single resource.
 
 1. Your server should incorporate at least one resource (Router) that, at minimum, includes:
    - `id` - A unique number for each item
@@ -31,7 +31,7 @@ To complete the back-end application, you will need to build a RESTful server th
    - `from` - string - who this transaction was with (ie. employer, bank, pet store, grocery store, etc)
    - `category` - string - what category does this fall into (income, savings, pets, food, etc)
 1. Create a model that includes at least 4 transactions (objects) in an array of objects
-1. For this resource:
+1. Spec for this resource:
 
    1. A route exists to create new resources.
    1. A route exists to read all resources.
@@ -45,7 +45,7 @@ To complete the back-end application, you will need to build a RESTful server th
 1. Add a response message for when an endpoint does not exist.
 1. Add Status Codes to your responses. 200 for success. 400 for not found. 500 for server error.
 
-##### Back-end Example
+##### backend Example
 
 |  #  | Action  |        URL        | HTTP Verb |    CRUD    |                  Description                   |
 | :-: | :-----: | :---------------: | :-------: | :--------: | :--------------------------------------------: |
@@ -55,11 +55,11 @@ To complete the back-end application, you will need to build a RESTful server th
 |  4  | Destroy | /transactions/:id |  DELETE   | **D**elete |             Delete a transactions              |
 |  5  | Update  | /transactions/:id |    PUT    | **U**pdate |             Update a transactions              |
 
-> **Note:** All of the above routes should work both with an application like Postman and a front-end framework like React
+> **Note:** All of the above routes should work both with Postman and in your React frontend.
 
-#### Front-end feature requirements
+#### Frontend feature requirements
 
-To complete the front-end application, you will need to build a React application that allows for CRUD operations to be performed on a single resource. You will also need to display the data thoughtfully and clearly.
+To complete the frontend application, you will need to build a React application, using [Project Budgeting App Frontend](https://github.com/10-3-pursuit/project-budgeting-app-frontend), that allows for CRUD operations to be performed on a single resource. You will also need to display the data thoughtfully and clearly.
 
 Use of `React Router 6.2.1` is optional for this project.
 
@@ -67,8 +67,11 @@ Use of `React Router 6.2.1` is optional for this project.
 npm i react-router-dom@6.2.1
 ```
 
-But please be mindful as to how you render and toggle components on the page if you do not use Router. Keep User Experience in mind.
+Please be mindful as to how you render and toggle components on the page if you do not use Router. Keep User Experience in mind.
 
+**Spec:**
+
+1. How you name the components is up to you but all component file names should be capitalized and end in `.jsx`.
 1. All pages should include the same navigation bar, which includes the name of the application and a button to create a new resource.
 1. You should have an Index page that presents all of the resources in your database table.
 1. After clicking on a single resource, you should be brought to a Show page which includes more detailed information about the specific resource.
@@ -79,7 +82,7 @@ But please be mindful as to how you render and toggle components on the page if 
    **Note:** You may use the same component or two different component for the Create and Edit functionality
 1. When an edited resource form is submitted, the resource should be edited in the database and the user should be brought to that new resource's Show page or to the main page where the resource has been added.
 1. On the resource's Show page, there should be a button to delete the current show page. If not using router that Delete button should be connected to the resource.
-1. Using the resource's data, perform a calculation that can be performed on the front-end application and displayed to the user on the Index page. For example, the bank account total should be visible. In addition to the total, the CSS should change based on the value - use a greenish color if the bank account total is above 100, use a yellowish color if the bank account total is between 0 and 100 and a reddish color if the bank account total is less than 0. You can change the background or text or both.
+1. Using the resource's data, perform a calculation that can be performed on the frontend application and displayed to the user on the Index page. For example, the bank account total should be visible. In addition to the total, the CSS should change based on the value - use a greenish color if the bank account total is above 100, use a yellowish color if the bank account total is between 0 and 100 and a reddish color if the bank account total is less than 0. You can change the background or text or both.
 
 ### Stretch goals
 
@@ -87,15 +90,16 @@ This section of the project measures your ability to go above and beyond in crea
 
 When you submit your pull request, _make sure to include a description of any stretch goals you implemented._ You may choose from the list below or come up with features or tasks that are more relevant to your specific implementation of the project.
 
-- Use [axios](https://www.npmjs.com/package/axios) instead of fetch to make calls to the backend
+- Use the `Pages` and `Components` architecture.
+- Use [axios](https://www.npmjs.com/package/axios) instead of `fetch` to make calls to the backend
 - Make `categories` a `select` HTML element on the new/edit forms to allow the user to choose from a pull-down menu from the available categories, and allow for the addition of new categories to the options menu.
 - Display the bank account total in the nav bar (or similar component that is visible on all views), instead of just on the index page.
 - Add helpful errors to users when they try to create or edit items with invalid data
-- Use the date object for the date, instead of just a string. Be sure to format it on the front-end to make it human-readable. Try using the `date` input type as well.
+- Use the date object for the date, instead of just a string. Be sure to format it on the frontend to make it human-readable. Try using the `date` input type as well.
 - Use a checkbox, separate input or similar strategy to allow the user to select whether the transaction is a deposit or withdrawal. If it is a withdrawal, make sure the value subtracts and deposit values add. By default, your user would have be entering values that are positive or negative.
 - Add a library like [chartjs](https://www.chartjs.org) to provide visualizations the budget app.
 - Add [React Drag and Drop](https://react-dnd.github.io/react-dnd/about) to move your transactions above and below each other.
-- Add one of the stretch goals you previouly learned to implement.
+- Reuse one of the stretch goals from a previous project.
 
 ## Example application
 
