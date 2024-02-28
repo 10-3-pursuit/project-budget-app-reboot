@@ -11,7 +11,7 @@ Budgtr is an application where people can log their financial transactions. Buil
 Instead, create your own repositories.
 
 1. Create a one GitHub repository for the the back-end where you create your own server.
-1. Create another Github repository for the front-end using [React-Basic-Starter](https://github.com/10-3-pursuit/react-basic-starter).
+1. Create another Github repository for the front-end using [Project Budgeting App Frontend](https://github.com/10-3-pursuit/project-budgeting-app-frontend).
 1. Your front-end repository should have a `readme.md` file with setup instructions for your application.
 1. Your readme should also include links to your back-end GitHub repository, both of your deployed URLs, and a link to the Trello board you used to manage your work.
 
