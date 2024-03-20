@@ -1,4 +1,4 @@
-# Full Stack Budgeting App
+# Full Stack Budgeting App Reboot
 
 <img src="./assets/budget.webp" width="500" height="400">
 
