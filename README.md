@@ -8,10 +8,12 @@ Budgtr is an application where people can log their financial transactions. Buil
 
 **You _SHOULD NOT_ fork and clone this repository.**
 
-Instead, create your own repositories.
+Instead, create a parent folder called `Budget-App` to house the frontend and backen repos.
 
-1. Create a one GitHub repository for the the backend where you create your own server.
-1. Create another Github repository for the frontend using [Project Budgeting App Frontend](https://github.com/10-3-pursuit/project-budgeting-app-frontend).
+1. `Fork` the [Project Budgeting App Frontend](https://github.com/10-3-pursuit/project-budgeting-app-frontend).
+1. `Clone` the forked repository into your `Budget-App` parent folder.
+1. `Fork` the [Express Server Starter](https://github.com/10-3-pursuit/express-server-starter)
+1. `Clone` the forked repository into your `Budget-App` parent folder
 1. Your backend repository should have a `readme.md` file with setup instructions for your application.
 1. Your readme should also include links to your frontend GitHub repository.
 
@@ -23,14 +25,25 @@ This section of the project is designed to measure your increasing skill at writ
 
 To complete the backend application, you will need to build a RESTful server that performs CRUD actions on a single resource.
 
-1. Your server should incorporate at least one resource (Router) that, at minimum, includes:
+1. Your server should incorporate one table that includes these field names (schema.sql):
+
+   - item_name - string
+   - amount - decimal
+   - date - date
+   - from - string
+   - category - string
+
+1. You should seed your database, `seed.sql` with at least 3 transactions
+
+1. Your server should incorporate at least one resource (Router/Controller) that, includes:
+
    - `id` - A unique number for each item
    - `item_name`- string - the name of the transaction (ie: income, savings, cat food, etc.)
    - `amount` -number - the amount of the transaction
    - `date`- string - the date should be a simple string. As a bonus activity, use the date object and date input field and format it to be human-readable
    - `from` - string - who this transaction was with (ie. employer, bank, pet store, grocery store, etc)
    - `category` - string - what category does this fall into (income, savings, pets, food, etc)
-1. Create a model that includes at least 4 transactions (objects) in an array of objects
+
 1. Spec for this resource:
 
    1. A route exists to create new resources.
